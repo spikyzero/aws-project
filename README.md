@@ -10,5 +10,18 @@ download AWS Command Line
 1. Create project folder
 
 2. In this folder run 
+```bash
+sls create -t aws-java-maven
+```
 
-$ sls create -t aws-java-maven
+3. Edit config file, implement demand logic
+
+4. Set keys configuration
+```bash
+sls configure
+```
+
+6. Run
+```bash
+sls deploy
+```
