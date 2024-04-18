@@ -4,6 +4,7 @@ Base application for test AWS Lambda functional
 ### Prerequisites
 
 download AWS Command Line
+download Serveless Framework
 
 ### How to create/deploy application ?
 
