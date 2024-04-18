@@ -21,7 +21,7 @@ sls create -t aws-java-maven
 sls configure
 ```
 
-6. Run
+5. Run to deploy
 ```bash
 sls deploy
 ```
