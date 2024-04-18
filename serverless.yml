@@ -1,0 +1,25 @@
+service: aws-project
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: java21
+  region: us-east-1
+
+package:
+  artifact: target/hello-dev.jar
+
+functions:
+  defaultLambda:
+    handler: com.serverless.Handler
+    events:
+      - httpApi:
+          path: /get/handler
+          method: get
+  userLambda:
+    handler: com.serverless.handler.UserHandler
+    events:
+      - httpApi:
+          path: /get/user
+          method: get
