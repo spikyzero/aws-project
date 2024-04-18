@@ -1,4 +1,4 @@
-# aws-project
+# AWS Lambda Project
 Base application for test AWS Lambda functional
 
 ### Prerequisites
